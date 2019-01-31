@@ -33,7 +33,7 @@ require (
 	github.com/peterbourgon/diskv v2.0.1+incompatible
 	github.com/pkg/errors v0.8.0
 	github.com/rifflock/lfshook v0.0.0-20180227222202-bf539943797a
-	github.com/satori/go.uuid v0.0.0-20181016184021-8ccf5352a842
+	github.com/satori/go.uuid v1.1.0
 	github.com/sethgrid/pester v0.0.0-20180430140037-03e26c9abbbf
 	github.com/sirupsen/logrus v1.0.5
 	github.com/spf13/afero v1.1.1
