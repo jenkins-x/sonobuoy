@@ -270,7 +270,7 @@ func (c SizeOrTimeLimitConfig) timeLimitDuration() (val time.Duration, defaulted
 // New returns a newly-constructed Config object with default values.
 func New() *Config {
 	var cfg Config
-	cfgUuid, _ := uuid.NewV4()
+	cfgUuid := uuid.NewV4()
 	cfg.UUID = cfgUuid.String()
 	cfg.Description = "DEFAULT"
 	cfg.ResultsDir = "/tmp/sonobuoy"
